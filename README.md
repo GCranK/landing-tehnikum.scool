@@ -1,0 +1,1 @@
+# landing-tehnikum.scool
