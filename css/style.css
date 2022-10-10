@@ -1,0 +1,589 @@
+body {
+    font-family: 'TT Hoves';
+    margin: 0;
+    color: #222222;
+}
+
+.contentBlock {
+    padding: 0 calc(10.6vw - 16px);
+    margin: 160px 0;
+}
+.contentBlock-1 {
+    padding: 0 calc(10.6vw - 16px);
+}
+.hello {
+    padding-top: 40px;
+    background-image: url(../img/nout.png);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.logo {
+    height: calc(1.3vw + 28px);
+}
+.courseInfo {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 150px;
+}
+.info {
+    font-size: 16px;
+    line-height: 140%;
+}
+.info .value {
+    font-weight: 700;
+}
+.hero {
+    margin-top: 48px;
+    max-width: 780px;
+}
+.hero h1 {
+    font-weight: 800;
+    font-size: calc(2vw + 34px);
+    line-height: 110%;
+    margin: 0;
+}
+.p {
+    font-weight: 300;
+    font-size: calc(1vw + 14px);
+    line-height: 140%;
+    margin: 40px 0;
+}
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.primary {
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    background: #1079C4;
+    border-radius: 12px;
+    width: 328px;
+    line-height: 61px;
+}
+.secondary {
+    color:#1079C4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    background: #ffffff;
+    border: 1px solid #1079C4;
+    border-radius: 12px;
+    width: 328px;
+    line-height: 61px;
+}
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+}
+.user {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    
+}
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 140%;
+    color: #222222;
+}
+.about {
+    font-weight: 400;
+    font-size: calc(1vw + 14px);
+    font-size: 27px;
+    line-height: 140%;
+    color: #222222; 
+}
+
+.img_{
+    width: 226px;
+    height: 226px;
+    left: -16px;
+    top: -8px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    font-size: calc(1vw + 34px);
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 68px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-size: calc(2vw + 34px);
+    color: #222222;
+}
+.hero_ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 20px;
+}
+.title_ {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 140%;
+    color: #222222;
+}
+.about_ {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 140%;
+    color: #222222;
+    font-size: calc(1vw + 14px);
+}
+.contentBlock.blue {
+    background: #1079C4;
+    padding: 80px 0;
+}
+h3 {
+    font-weight: 700;
+    font-size: calc(2vw + 22px);
+    line-height: calc(3vw + 25px);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+.times {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 57px 0;
+}
+.time .value {
+    font-family: 'Chava';
+    font-weight: 400;
+    font-size: calc(13vw + 13px);
+    line-height: 107.5%;
+    color: #002741;
+    text-align: center;
+}
+.time .disc {
+    font-weight: 500;
+    font-size: calc(2vw + 3px);
+    line-height: calc(2vw + 4px);
+    text-align: center;
+    text-transform: uppercase;
+    color: #002741;
+}
+.contentBlock.blue .secondary {
+    margin: 0 auto;
+}
+
+.teacher {
+    display: flex;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+}
+.teacher img {
+    flex-basis:200px;
+    flex-grow: 1;
+    height: 100%;
+}
+.teacherInfo {
+    flex-basis:200px;
+    flex-grow: 10;
+}
+.image {
+    width: 399px;
+    height: 562px;
+    left: 119px;
+    top: 158px;
+}
+.image-sm {
+    width: 36px;
+    height: 36px;
+}
+h4 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0;
+}
+.teacherInfo p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 40px;
+
+}
+.skill {
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+.skill img {
+    display: block;
+    width: 36px;
+    height: 36px;
+
+}
+.skill span {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    margin-top: 10px;
+}
+/*  */
+.patent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    
+}
+.patentInfo p {
+    max-width: 599px;
+    height: 76px;
+    left: calc(50% - 599px / 2 + 229.5px);
+    top: 156px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 140%;
+}
+.image_ {
+    Width:430px;
+    Height:300px;
+}
+
+.header__ {
+    display: flex;
+    flex-wrap: wrap;
+}
+.info__ p {
+    max-width: 876px;
+    height: 152px;
+    left: calc(50% - 876px/2 - 81px);
+    top: 176px;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: calc(1vw + 14px);
+}
+.image__ {
+    padding-top: 46px;
+}
+.image-word {
+    width: calc(64vw + 28px);
+}
+
+.studentBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-info p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    max-width: 524px;
+    height: 29px;
+    padding: 25px 0;
+}
+.stbox-img {
+    width: 579px;
+    height: 354px;
+    left: 61px;
+    top: 98px;
+    width: calc(30vw + 248px);
+}
+
+.img__ {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.feedbacks {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+flex-wrap: wrap;
+
+}
+.feedback {
+    background-color: #F0F7FD;
+    border-radius: 20px;
+    font-size: 18px;
+    flex-basis: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 68px;
+}
+.text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+.student {
+display: flex;
+gap: 16px;
+}
+.studentInfo {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+.surname {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+.yt-img {
+    height: 28px;
+    width: 38px;
+    border-radius: 0px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.kubok {
+    display: flex;
+    flex-direction: column;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    max-width: 461px;
+}
+.result_ {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 68px;
+    letter-spacing: 0.01em;
+}
+.kubok_ {
+    width: 110px;
+    height: 110px;
+    left: 121px;
+    top: 148px;
+}
+.textIT {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 140%;
+    max-width: 426px;;
+    height: 114px;
+    left: 119px;
+    top: 298px;
+}
+.sm-p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+.head_ {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 855px;
+}
+.text-sm {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 748px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 140%;
+    left: 120px;
+    top: 82px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.slick-slide {
+    margin: 10px;
+}
+.slide_image {
+    width: 759px;
+    height: 406px;
+}
+.program {
+    border:2px solid #000;
+    padding: 80px 60px 40px;
+    position: relative;
+}
+.program h2 {
+    margin: 0;
+}
+.lessons {
+    margin: 40px 0;
+}
+.lesson {
+    font-weight: 400;
+    font-size: 21px;
+    padding: 24px 0;
+    border-bottom: 1px solid #a1a1a1;
+}
+.program .primary {
+    margin: 0 auto;
+}
+.corner {
+    width: 100px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+.mobile {
+    display: none;
+}
+@media (max-width: 500px) {
+    .desktop {
+        display:none;
+    }
+    .mobile {
+        display: block;
+    }
+    .primary.mobile {
+        margin: 24px auto 0;
+    }
+    .lesson:last-child {
+        border: 0;
+    }
+    .sale {
+        left: auto;
+        right: -140px !important;
+    }
+    .slide_image {
+        width: 100%;
+    }
+    .image_ {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+}
+.black {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    padding: 100px calc(10.6vw - 16px);
+    gap: 60px 100px;
+    flex-wrap: wrap;
+}
+.ctacontainer {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+.formcontainer {
+    background-color: #fff;
+    color: #222;
+    border-radius: 12px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 60px 70px 50px;
+    text-align: center;
+    position: relative;
+}
+.sale {
+    width: 140px;
+    height: 140px;
+    background: #1079C4;
+    border-radius: 50%;
+    color:#fff;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 140px;
+    position: absolute;
+    top: -70px;
+    left: -70px;
+}
+.formcontainer .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.formcontainer span {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+}
+input { 
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    border: 0;
+    border-bottom:1px solid #a1a1a1;
+
+}
+input:focus-visible {
+    outline: none;
+}
+.formcontainer .primary {
+    margin-top: 30px;
+    width: 100%;
+}
+.contacts {
+    margin-top: 40px;
+    opacity: 0.5;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+}
+.questions {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.icon {
+    background-image: url('../img/flag.png');
+    color: white;
+    width: 32px;
+    height: 15px;
+    text-align: center;
+  }
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: baseline;
+    border: 0;
+    border-bottom:1px solid #a1a1a1;
+}
+.b-n {
+    border:none;
+}
