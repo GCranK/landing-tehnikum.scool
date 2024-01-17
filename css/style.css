@@ -479,6 +479,17 @@ gap: 16px;
     .sale {
         left: auto;
         right: -140px !important;
+            width: 120px;
+    height: 120px;
+    background: #1079C4;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120px;
+    position: absolute;
+    top: -55px;
+    left: -15px;
     }
     .slide_image {
         width: 100%;
